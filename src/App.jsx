@@ -1,16 +1,10 @@
-import {Container, HeaderContainer, HeaderH1} from "./assets/Styles.js";
+import Login from "./pages/Login.jsx";
 
 function App() {
 
     return (
     <div className="App">
-        <Container>
-            <HeaderContainer>
-                <HeaderH1>
-                    Login
-                </HeaderH1>
-            </HeaderContainer>
-        </Container>
+        <Login />
     </div>
   )
 }
